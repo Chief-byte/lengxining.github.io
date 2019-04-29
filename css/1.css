@@ -1,0 +1,11 @@
+nav {height: 70px; width: 100%; background: white;position:fixed;left:0;top:0;background-image: url(../img/nav.jpg);background-repeat-x: initial;}
+nav a{color:chocolate;margin-left: 20px;font-size: 25px;}
+nav a:hover{background-color:chocolate;transition: background 0.5s linear;color:white;}
+#nav_tips {margin-top: 15px;}
+.content{text-align: center;font-family: "楷体";font-size: 25px;width: 40%;border:cornflowerblue 5px dotted; margin-left: 30%;padding-top: 50px;padding-bottom: 50px;}
+.title{text-align: center;font-size: 50px;font-family: "arial black";}
+ul{ list-style:none;}
+ul li{float:left; position:relative;}
+ul li ul{ position:absolute; display:none; left:0;}
+ul li ul li{width: 400px;}
+ul li:hover ul{ display:block;}
